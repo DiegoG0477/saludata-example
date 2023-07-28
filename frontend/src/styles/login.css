@@ -1,0 +1,55 @@
+.login-container {
+    background-image: url(src/assets/imagen_login.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login-form {
+    position: absolute;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    left: 200px;
+    height: 500px;
+    width: 550px  ;
+
+}
+
+.login-heading {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.login-input {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+.login-button {
+    color: black;
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+    background-color: #268D78;
+    width: 200px;
+    height: 40px;
+    border: none;
+    top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}

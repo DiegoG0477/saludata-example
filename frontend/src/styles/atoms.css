@@ -1,0 +1,127 @@
+/* ---------------ColumnButton---------------- */
+.column-btn {
+  font-weight: bolder;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-width: 0px;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.column-btn:hover {
+  cursor: pointer;
+}
+
+.column-btn:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* ------------- INPUTS ------------- */
+.input-box .input {
+  outline: none;
+  background: #ebebeb !important;
+  /* border-radius: 0px; */
+  transition: border-bottom-color 0.2s ease; /* Agregar una transición suave */
+}
+
+.input-box .input:focus,
+.input-box .input:active {
+  background: #ebebeb;
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px solid #247061 !important;
+  border-width: 0 0 2px 0;
+}
+
+.input-box .read-input {
+  outline: none;
+  background: #ebebeb !important;
+  border-bottom: 2px solid #247061 !important;
+  border-width: 0 0 2px 0;
+  border-radius: 0px;
+}
+
+/* --------------------BUTTONS-------------------- */
+.globalButton {
+  font-size: 1.25rem;
+  border-radius: 10px;
+  background: #268d78;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 12vw;
+  height: 40px;
+  border-width: 0px;
+  font-weight: bolder;
+  color: aliceblue !important;
+}
+
+.globalButton:hover {
+  background: #247061;
+  cursor: pointer;
+}
+
+.globalButton:active {
+  background: #268d78 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.globalButton-red {
+  font-size: 1.25rem !important;
+  border-radius: 10px;
+  background: #aa0e1a !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 12vw;
+  height: 40px;
+  border-width: 0px;
+  font-weight: bolder;
+  color: aliceblue !important;
+}
+
+.globalButton-red:hover {
+  background: #870913;
+  cursor: pointer;
+}
+
+.globalButton-red:active {
+  background: #aa0e1a !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown .collapse-button.btn {
+  /* font-size: 1.25rem;
+  border-radius: 10px; */
+  background: #268d78 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* border-width: 0px; */
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.dropdown .collapse-button.btn:hover {
+  background: #247061;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.globalButton:active {
+  background: #268d78 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: aliceblue;
+}
+
+/* .system-content .input-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .system-content .input-box{
+    margin-bottom: -4vh;
+  } */
+
+/* width: 82.34vw;
+    margin-bottom: 2.5vh; */
+
+/* background-color: #247061; */

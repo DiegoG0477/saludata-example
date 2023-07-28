@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
+#root {
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.app {
+  background-color: #f3f3f3;
+}
+
+.system-content .globalButton {
+  font-size: 1.25rem;
+  border-radius: 10px;
+  background: #268d78;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 12vw;
+  height: 40px;
+  border-width: 0px;
+  font-weight: bolder;
+}
+
+.system-content .globalButton:hover {
+  background: #247061;
+  cursor: pointer;
+}
+
+.system-content .globalButton:active {
+  background: #268d78 !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* HEAD COMPONENT */
+
+.navbar {
+  background: #2f9380;
+  height: 14.5vh;
+}
+
+.userPhoto {
+  background-color: aliceblue;
+  border-radius: 40px;
+}
+
+.userPhoto img {
+  border-radius: 40px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin-right: 3vw;
+}
+
+/* LEFT NAV COMPONENT */
+
+.left-nav {
+  height: 85.5vh;
+  padding-top: 2.2vh;
+  background-color: #ededed;
+  width: 9.297vw;
+  margin-left: 0px;
+  box-shadow: -7px 0px 8px -3px rgba(0, 0, 0, 0.52) inset;
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: stretch; */
+  overflow-y: auto;
+}
+.nav-box.active {
+  background-color: transparent;
+  position: relative;
+}
+
+.nav-box.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #248087;
+}
+
+.nav-box {
+  /* padding-top: 0.3vh; */
+  text-align: center;
+  /* padding-bottom: 0.3vh; */
+}
+
+.nav-box p {
+  margin-top: 5px;
+  font-size: 1.125rem;
+  font-weight: 800;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+}
+
+.system-content {
+  padding-left: 4.173vw;
+  padding-right: 4.173vw;
+  padding-top: 4.036vh;
+  padding-bottom: 4.036vh;
+}
+
+.home-top {
+  display: flex;
+  justify-content: space-between;
+  width: 82.34vw;
+}
+
+/* ------------- INPUTS ------------- */
+.pacient-search-in-container input {
+  width: 36vw;
+  height: 8vh;
+}
+
+.system-content .input-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.system-content .input-box {
+  margin-bottom: -4vh;
+}
+.system-content .avanzadas{
+  overflow:scroll;
+}
+
+/* ----------------- TABLE -----------------  */
+.system-content .tablaS {
+  text-align: center;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  background-color: #ebebeb;
+  overflow:scroll;
+  /* border-collapse: separate; */
+
+  border-radius: 8px;
+}
+
+.system-content .tablaS thead {
+  background-color: #268d78; /* Cambia el color según tu preferencia */
+  height: 5vh;
+  color: #f3f3f3;
+}
+
+.tablaS tr {
+  height: 7vh;
+}
+
+.tablaS .left-th {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.tablaS .right-th {
+  border-radius: 0px 8px 0px 0px;
+}
+
+.tabla-container .tablaS thead {
+  position: sticky;
+  top: 0;
+}
+
+/* -------------------- MODAL WINDOW -------------------- */
+.system-content .modal-window-content {
+  /* margin-left: -8.5vw; FOR 1080P*/
+  padding: 4vh 3vw 0vh 3vw;
+  border-radius: 10px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 250px 500px rgba(0, 0, 0, 0.5);
+  width: 82vw;
+  height: auto;
+}
+
+.modal-window-content .modal-buttons-section {
+  margin-top: 1vh;
+}
+
+.modal-window-content .modal-win-title {
+  font-weight: bolder;
+}
+
+.date {
+  background: #ebebeb !important;
+  width: 21vw !important;
+  height: 8vh !important;
+  border: none !important;
+  outline: none !important;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+.date input {
+  border-bottom: 0 !important;
+  border: none !important;
+  outline: none !important;
+}

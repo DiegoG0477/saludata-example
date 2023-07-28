@@ -1,0 +1,51 @@
+.summary-idPa-page{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.summary-idPa-page .summary-idPa-page-left{
+    /* display: flex;
+    justify-content: space-between; */
+    /* margin-right: 10%; */
+}
+
+.two-inputs-div{
+    /* column-count: 2; */
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.two-inputs-div-column{
+    column-count: 2;
+    margin-top: 5vh;
+}
+
+.two-inputs-div input{
+    width: 35vw;
+}
+
+
+
+.tree-inputs-div{
+    column-count: 3;
+    margin-top: 5vh;
+}
+
+.four-inputs-div{
+    column-count: 4;
+    margin-top: 5vh;
+}
+
+.five-inputs-div{
+    column-count: 5;
+    margin-top: 5vh;
+}
+
+
+.six-inputs-div{
+    column-count: 6;
+    margin-top: 5vh;
+}
